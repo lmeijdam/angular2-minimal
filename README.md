@@ -47,9 +47,9 @@ Now we've all set up, we can start creating a basic application. Navigate to any
     npm init -y 
 ````
 
-This command will create a 'project.json' file with some default configuration for Node.js. The '-y' flag will answer yes to all questions in the proces. 
+This command will create a 'package.json' file with some default configuration for Node.js. The '-y' flag will answer yes to all questions in the proces. 
 
-Now open the folder in your editor and directly navigate/open the 'project.json' file. 
+Now open the folder in your editor and directly navigate/open the 'package.json' file. 
 *If you installed Visual Studio Code, you can also use the following command from the Command Prompt:*
 ````
     code .
@@ -59,7 +59,7 @@ Now open the folder in your editor and directly navigate/open the 'project.json'
 
 Once you've opened the file, there are 3 additions that need to be made to the configuration. We firstly need to add dependencies that are necessary.
 
-- Please copy next piece into the 'project.json' dependencies section (if not there, copy all)
+- Please copy next piece into the 'package.json' dependencies section (if not there, copy all)
 ````javascript
     "dependencies"   : {
     "@angular/common": "~2.2.0",
@@ -276,7 +276,7 @@ Now we have created all of the files needed to start off with a basic Angular 2 
     npm start
 ````
 
-This will use the 'start' script mentioned in the 'project.json' file. It compiles all of the TypeScript files to JavaScript and you can see the '.js' files in the editor as they appear.
+This will use the 'start' script mentioned in the 'package.json' file. It compiles all of the TypeScript files to JavaScript and you can see the '.js' files in the editor as they appear.
 
 ## A finishing touch
 If you're feeling comfortable with a basic set up where you have control over all of the files with little knowledge. This tutorial is something for you. Please note that it covers a 'basic' set up.
